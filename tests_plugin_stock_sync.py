@@ -409,7 +409,7 @@ def last_kb():
 
 name = dispatch_cb(f"47:{plugin.UUID}:0")
 check("7.3 страница настроек открывает меню", name == "open_home"
-      and "Синхронизация лотов автовыдачи" in last_text())
+      and "StockSync" in last_text())
 check("7.4 в меню статусы и число лотов автовыдачи",
       "Периодическая синхронизация: <b>ВКЛ" in last_text()
       and "Лотов автовыдачи найдено: <b>2</b>" in last_text())

@@ -55,12 +55,12 @@ from Utils import cardinal_tools
 logger = logging.getLogger("FPC.StockSync")
 
 # ══════════════════════════════ МЕТАДАННЫЕ ПЛАГИНА ══════════════════════════════
-NAME = "Синхронизация лотов автовыдачи"
-VERSION = "1.0.0"
+NAME = "StockSync (Auto-Delivery Lot Sync)"
+VERSION = "1.0.1"
 DESCRIPTION = ("Держит «Наличие» лотов на FunPay в соответствии с товарными файлами автовыдачи: "
                "синхронизация после каждой выдачи + периодическая + ручная. Диагностика конфигов, "
                "которые не подходят ни одному лоту. Команда: /sync")
-CREDITS = "Qwen (для FunPay Cardinal)"
+CREDITS = "yungspider"
 UUID = "8090130c-fc77-48d2-8a0d-dd6db599e54a"
 SETTINGS_PAGE = True
 

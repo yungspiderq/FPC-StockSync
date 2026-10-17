@@ -2,6 +2,8 @@
 
 Плагин для [FunPay Cardinal](https://github.com/sidor0912/FunPayCardinal) **v0.1.17+**
 
+**Автор:** yungspider
+
 Держит поле **«Наличие»** лотов на FunPay в соответствии с реальным количеством
 товаров в товарных файлах автовыдачи (`storage/products/*.txt`).
 
